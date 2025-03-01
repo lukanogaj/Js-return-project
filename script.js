@@ -1,3 +1,6 @@
+import { navbarStartData } from "./data/data";
+console.log(navbarStartData);
+
 // Selecting the Html elements
 const mainDiv = document.querySelector("#main-div");
 console.log(mainDiv);
