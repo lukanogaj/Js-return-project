@@ -8,10 +8,28 @@
 
 html {
 	font-family: "Roboto", sans-serif;
+	background-color: #eeedec;
 }
 
 body {
 	width: 100vw;
 	height: 100vh;
-	background-color: aquamarine;
 }
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	.navbar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 90%;
+		background-color: #eeedec;
+	}
+}
+
+/*  */
